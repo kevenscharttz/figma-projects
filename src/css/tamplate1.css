@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Avenir-Roman';
+    src: url(../font/avenir-font/AvenirLTStd-Medium.otf) format(opentype);
+}
+
+@font-face {
+    font-family: 'Avenir-Heavy';
+    src: url(../font/avenir-font/AvenirLTStd-Heavy.otf) format(opentype);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ffffff;
+    color: #252525;
+    font-family: 'Avenir-Roman';
+}
+
+header {
+    margin-top: 100px;
+    margin-left: 400 px;
+    width: 250px;
+}
+
+header h1 {
+    font-family: 'Avenir-Heavy';
+    line-height: 45px;
+}
+
+header p {
+    color: #252525c4;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+header button {
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 12px;
+    background-color: #252525;
+    color: #ffffff;
+}
